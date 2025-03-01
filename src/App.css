@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
+*{
+  padding: 0%;
+  margin: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body{
+  background-color: rgb(74, 107, 107);
+  width: 100%;
+  height: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+
 }
 
-.App-link {
-  color: #61dafb;
+.passwordBox{
+  width:  350px;
+  background-color: aliceblue;
+  margin-top: 100px;
+  /* transform: translate(-50%); */
+  padding: 20px;
+  border-radius: 20px;
+}
+h2{
+  text-align: center;
+  margin-bottom: 8px;
+  font-family: sans-serif;
+  color: rgb(48, 46, 46);
+  padding: 10px;
+
+}
+.passwordBoxin{
+  display: flex;
+  margin-top: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.passwordBoxin input{
+  flex-basis: 80%;
+  padding-left: 5px;
+}
+
+.passwordBoxin button{
+  flex-basis: 20%;
+  padding: 10px 0px;
+  background-color: rgb(174, 157, 233);
+  color: aliceblue;
+  border: rgb(131, 105, 225);
+  cursor: pointer;
+
+}
+
+.passwordBoxin button:hover{
+  
+  background-color: rgb(141, 120, 218);
+  
+
+}
+
+.passwordLength{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+  align-items: center;
+}
+
+.passwordLength input{
+  width: 60px;
+  height: 25px;
+  padding-left: 5px;
+}
+
+.btn{
+  width: 100%;
+  padding: 10px 0px;
+  background-color: rgb(174, 157, 233);
+  color: aliceblue;
+  border: rgb(131, 105, 225);
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.btn:hover{
+  background-color: rgb(141, 120, 218);
 }
